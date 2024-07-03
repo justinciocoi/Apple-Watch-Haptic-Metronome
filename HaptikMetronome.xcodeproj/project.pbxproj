@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62F4A9362C34D1250086A08A /* HaptikMetronome Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 62F4A9352C34D1250086A08A /* HaptikMetronome Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		62F4A93B2C34D1250086A08A /* HaptikMetronomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F4A93A2C34D1250086A08A /* HaptikMetronomeApp.swift */; };
+		62F4A93D2C34D1250086A08A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F4A93C2C34D1250086A08A /* ContentView.swift */; };
+		62F4A93F2C34D1260086A08A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F4A93E2C34D1260086A08A /* Assets.xcassets */; };
+		62F4A9422C34D1260086A08A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F4A9412C34D1260086A08A /* Preview Assets.xcassets */; };
+		62F4A94C2C34D1260086A08A /* HaptikMetronome_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F4A94B2C34D1260086A08A /* HaptikMetronome_Watch_AppTests.swift */; };
+		62F4A9562C34D1260086A08A /* HaptikMetronome_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F4A9552C34D1260086A08A /* HaptikMetronome_Watch_AppUITests.swift */; };
+		62F4A9582C34D1260086A08A /* HaptikMetronome_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F4A9572C34D1260086A08A /* HaptikMetronome_Watch_AppUITestsLaunchTests.swift */; };
+		62F4A96B2C34D9030086A08A /* SwiftUI Apple Watch Decimal Pad in Frameworks */ = {isa = PBXBuildFile; productRef = 62F4A96A2C34D9030086A08A /* SwiftUI Apple Watch Decimal Pad */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62F4A9372C34D1250086A08A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62F4A9292C34D1250086A08A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62F4A9342C34D1250086A08A;
+			remoteInfo = "HaptikMetronome Watch App";
+		};
+		62F4A9482C34D1260086A08A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62F4A9292C34D1250086A08A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62F4A9342C34D1250086A08A;
+			remoteInfo = "HaptikMetronome Watch App";
+		};
+		62F4A9522C34D1260086A08A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62F4A9292C34D1250086A08A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62F4A9342C34D1250086A08A;
+			remoteInfo = "HaptikMetronome Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		62F4A95E2C34D1260086A08A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				62F4A9362C34D1250086A08A /* HaptikMetronome Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		62F4A92F2C34D1250086A08A /* HaptikMetronome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaptikMetronome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F4A9352C34D1250086A08A /* HaptikMetronome Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HaptikMetronome Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F4A93A2C34D1250086A08A /* HaptikMetronomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaptikMetronomeApp.swift; sourceTree = "<group>"; };
+		62F4A93C2C34D1250086A08A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		62F4A93E2C34D1260086A08A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62F4A9412C34D1260086A08A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62F4A9472C34D1260086A08A /* HaptikMetronome Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HaptikMetronome Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F4A94B2C34D1260086A08A /* HaptikMetronome_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaptikMetronome_Watch_AppTests.swift; sourceTree = "<group>"; };
+		62F4A9512C34D1260086A08A /* HaptikMetronome Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HaptikMetronome Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F4A9552C34D1260086A08A /* HaptikMetronome_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaptikMetronome_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		62F4A9572C34D1260086A08A /* HaptikMetronome_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaptikMetronome_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		62F4A96C2C34DCDD0086A08A /* HaptikMetronome-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "HaptikMetronome-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62F4A9322C34D1250086A08A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F4A96B2C34D9030086A08A /* SwiftUI Apple Watch Decimal Pad in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F4A9442C34D1260086A08A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F4A94E2C34D1260086A08A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62F4A9282C34D1250086A08A = {
+			isa = PBXGroup;
+			children = (
+				62F4A9392C34D1250086A08A /* HaptikMetronome Watch App */,
+				62F4A94A2C34D1260086A08A /* HaptikMetronome Watch AppTests */,
+				62F4A9542C34D1260086A08A /* HaptikMetronome Watch AppUITests */,
+				62F4A9302C34D1250086A08A /* Products */,
+				62F4A9692C34D9000086A08A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		62F4A9302C34D1250086A08A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62F4A92F2C34D1250086A08A /* HaptikMetronome.app */,
+				62F4A9352C34D1250086A08A /* HaptikMetronome Watch App.app */,
+				62F4A9472C34D1260086A08A /* HaptikMetronome Watch AppTests.xctest */,
+				62F4A9512C34D1260086A08A /* HaptikMetronome Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62F4A9392C34D1250086A08A /* HaptikMetronome Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				62F4A96C2C34DCDD0086A08A /* HaptikMetronome-Watch-App-Info.plist */,
+				62F4A93A2C34D1250086A08A /* HaptikMetronomeApp.swift */,
+				62F4A93C2C34D1250086A08A /* ContentView.swift */,
+				62F4A93E2C34D1260086A08A /* Assets.xcassets */,
+				62F4A9402C34D1260086A08A /* Preview Content */,
+			);
+			path = "HaptikMetronome Watch App";
+			sourceTree = "<group>";
+		};
+		62F4A9402C34D1260086A08A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				62F4A9412C34D1260086A08A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		62F4A94A2C34D1260086A08A /* HaptikMetronome Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				62F4A94B2C34D1260086A08A /* HaptikMetronome_Watch_AppTests.swift */,
+			);
+			path = "HaptikMetronome Watch AppTests";
+			sourceTree = "<group>";
+		};
+		62F4A9542C34D1260086A08A /* HaptikMetronome Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62F4A9552C34D1260086A08A /* HaptikMetronome_Watch_AppUITests.swift */,
+				62F4A9572C34D1260086A08A /* HaptikMetronome_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "HaptikMetronome Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		62F4A9692C34D9000086A08A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62F4A92E2C34D1250086A08A /* HaptikMetronome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F4A95F2C34D1260086A08A /* Build configuration list for PBXNativeTarget "HaptikMetronome" */;
+			buildPhases = (
+				62F4A92D2C34D1250086A08A /* Resources */,
+				62F4A95E2C34D1260086A08A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62F4A9382C34D1250086A08A /* PBXTargetDependency */,
+			);
+			name = HaptikMetronome;
+			productName = HaptikMetronome;
+			productReference = 62F4A92F2C34D1250086A08A /* HaptikMetronome.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		62F4A9342C34D1250086A08A /* HaptikMetronome Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F4A95B2C34D1260086A08A /* Build configuration list for PBXNativeTarget "HaptikMetronome Watch App" */;
+			buildPhases = (
+				62F4A9312C34D1250086A08A /* Sources */,
+				62F4A9322C34D1250086A08A /* Frameworks */,
+				62F4A9332C34D1250086A08A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HaptikMetronome Watch App";
+			packageProductDependencies = (
+				62F4A96A2C34D9030086A08A /* SwiftUI Apple Watch Decimal Pad */,
+			);
+			productName = "HaptikMetronome Watch App";
+			productReference = 62F4A9352C34D1250086A08A /* HaptikMetronome Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62F4A9462C34D1260086A08A /* HaptikMetronome Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F4A9622C34D1260086A08A /* Build configuration list for PBXNativeTarget "HaptikMetronome Watch AppTests" */;
+			buildPhases = (
+				62F4A9432C34D1260086A08A /* Sources */,
+				62F4A9442C34D1260086A08A /* Frameworks */,
+				62F4A9452C34D1260086A08A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62F4A9492C34D1260086A08A /* PBXTargetDependency */,
+			);
+			name = "HaptikMetronome Watch AppTests";
+			productName = "HaptikMetronome Watch AppTests";
+			productReference = 62F4A9472C34D1260086A08A /* HaptikMetronome Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62F4A9502C34D1260086A08A /* HaptikMetronome Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F4A9652C34D1260086A08A /* Build configuration list for PBXNativeTarget "HaptikMetronome Watch AppUITests" */;
+			buildPhases = (
+				62F4A94D2C34D1260086A08A /* Sources */,
+				62F4A94E2C34D1260086A08A /* Frameworks */,
+				62F4A94F2C34D1260086A08A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62F4A9532C34D1260086A08A /* PBXTargetDependency */,
+			);
+			name = "HaptikMetronome Watch AppUITests";
+			productName = "HaptikMetronome Watch AppUITests";
+			productReference = 62F4A9512C34D1260086A08A /* HaptikMetronome Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62F4A9292C34D1250086A08A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					62F4A92E2C34D1250086A08A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					62F4A9342C34D1250086A08A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					62F4A9462C34D1260086A08A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 62F4A9342C34D1250086A08A;
+					};
+					62F4A9502C34D1260086A08A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 62F4A9342C34D1250086A08A;
+					};
+				};
+			};
+			buildConfigurationList = 62F4A92C2C34D1250086A08A /* Build configuration list for PBXProject "HaptikMetronome" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62F4A9282C34D1250086A08A;
+			packageReferences = (
+				62F4A9682C34D8A00086A08A /* XCRemoteSwiftPackageReference "SwiftUI-Apple-Watch-Decimal-Pad" */,
+			);
+			productRefGroup = 62F4A9302C34D1250086A08A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62F4A92E2C34D1250086A08A /* HaptikMetronome */,
+				62F4A9342C34D1250086A08A /* HaptikMetronome Watch App */,
+				62F4A9462C34D1260086A08A /* HaptikMetronome Watch AppTests */,
+				62F4A9502C34D1260086A08A /* HaptikMetronome Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62F4A92D2C34D1250086A08A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F4A9332C34D1250086A08A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F4A9422C34D1260086A08A /* Preview Assets.xcassets in Resources */,
+				62F4A93F2C34D1260086A08A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F4A9452C34D1260086A08A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F4A94F2C34D1260086A08A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62F4A9312C34D1250086A08A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F4A93D2C34D1250086A08A /* ContentView.swift in Sources */,
+				62F4A93B2C34D1250086A08A /* HaptikMetronomeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F4A9432C34D1260086A08A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F4A94C2C34D1260086A08A /* HaptikMetronome_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F4A94D2C34D1260086A08A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F4A9582C34D1260086A08A /* HaptikMetronome_Watch_AppUITestsLaunchTests.swift in Sources */,
+				62F4A9562C34D1260086A08A /* HaptikMetronome_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62F4A9382C34D1250086A08A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62F4A9342C34D1250086A08A /* HaptikMetronome Watch App */;
+			targetProxy = 62F4A9372C34D1250086A08A /* PBXContainerItemProxy */;
+		};
+		62F4A9492C34D1260086A08A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62F4A9342C34D1250086A08A /* HaptikMetronome Watch App */;
+			targetProxy = 62F4A9482C34D1260086A08A /* PBXContainerItemProxy */;
+		};
+		62F4A9532C34D1260086A08A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62F4A9342C34D1250086A08A /* HaptikMetronome Watch App */;
+			targetProxy = 62F4A9522C34D1260086A08A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		62F4A9592C34D1260086A08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62F4A95A2C34D1260086A08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		62F4A95C2C34D1260086A08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HaptikMetronome Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = K966B35G62;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HaptikMetronome-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = HaptikMetronome;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Justin-Ciocoi.HaptikMetronome.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		62F4A95D2C34D1260086A08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HaptikMetronome Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = K966B35G62;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HaptikMetronome-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = HaptikMetronome;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Justin-Ciocoi.HaptikMetronome.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		62F4A9602C34D1260086A08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K966B35G62;
+				INFOPLIST_KEY_CFBundleDisplayName = HaptikMetronome;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Justin-Ciocoi.HaptikMetronome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		62F4A9612C34D1260086A08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K966B35G62;
+				INFOPLIST_KEY_CFBundleDisplayName = HaptikMetronome;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Justin-Ciocoi.HaptikMetronome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62F4A9632C34D1260086A08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K966B35G62;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Justin-Ciocoi.HaptikMetronome-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaptikMetronome Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HaptikMetronome Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		62F4A9642C34D1260086A08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K966B35G62;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Justin-Ciocoi.HaptikMetronome-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaptikMetronome Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HaptikMetronome Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		62F4A9662C34D1260086A08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K966B35G62;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Justin-Ciocoi.HaptikMetronome-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "HaptikMetronome Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		62F4A9672C34D1260086A08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K966B35G62;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Justin-Ciocoi.HaptikMetronome-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "HaptikMetronome Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62F4A92C2C34D1250086A08A /* Build configuration list for PBXProject "HaptikMetronome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F4A9592C34D1260086A08A /* Debug */,
+				62F4A95A2C34D1260086A08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F4A95B2C34D1260086A08A /* Build configuration list for PBXNativeTarget "HaptikMetronome Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F4A95C2C34D1260086A08A /* Debug */,
+				62F4A95D2C34D1260086A08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F4A95F2C34D1260086A08A /* Build configuration list for PBXNativeTarget "HaptikMetronome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F4A9602C34D1260086A08A /* Debug */,
+				62F4A9612C34D1260086A08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F4A9622C34D1260086A08A /* Build configuration list for PBXNativeTarget "HaptikMetronome Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F4A9632C34D1260086A08A /* Debug */,
+				62F4A9642C34D1260086A08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F4A9652C34D1260086A08A /* Build configuration list for PBXNativeTarget "HaptikMetronome Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F4A9662C34D1260086A08A /* Debug */,
+				62F4A9672C34D1260086A08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		62F4A9682C34D8A00086A08A /* XCRemoteSwiftPackageReference "SwiftUI-Apple-Watch-Decimal-Pad" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ApplebaumIan/SwiftUI-Apple-Watch-Decimal-Pad.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		62F4A96A2C34D9030086A08A /* SwiftUI Apple Watch Decimal Pad */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62F4A9682C34D8A00086A08A /* XCRemoteSwiftPackageReference "SwiftUI-Apple-Watch-Decimal-Pad" */;
+			productName = "SwiftUI Apple Watch Decimal Pad";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 62F4A9292C34D1250086A08A /* Project object */;
+}
