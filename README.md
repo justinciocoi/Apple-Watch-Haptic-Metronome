@@ -9,6 +9,15 @@ This is a very limited metronome app, but it fills a niche that is currently emp
 - Background modes are enabled to allow metronome clicks to persist through watch sleep
 - BPM can be adjusted quickly by + or - 5, or entered manually in a sub-menu
 
+
+
+## Preview
+
+![](https://i.imgur.com/1qkkftz.png)
+![](https://i.imgur.com/334hWsI.png)
+![](https://i.imgur.com/u12HGFO.png)
+
+
 ## License
 
 MIT License
